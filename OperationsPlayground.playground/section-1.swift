@@ -21,3 +21,5 @@ var priceAfterDiscount = priceOfShoes * (1 - discountOnShoesAtStore)
 var downPayment = 10.5
 
 priceAfterDiscount = priceAfterDiscount - downPayment
+
+var largeNumber = 1_000_000_000_000
