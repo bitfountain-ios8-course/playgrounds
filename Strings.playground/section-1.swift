@@ -24,3 +24,7 @@ var numberString = "9"
 var numberStringToInt = numberString.toInt()
 var optionalToInt = numberStringToInt!
 optionalToInt = optionalToInt + 3
+
+var doubleString = "3.9585"
+var doubleValue = Double((doubleString as NSString).doubleValue)
+doubleValue = doubleValue + 3.85
