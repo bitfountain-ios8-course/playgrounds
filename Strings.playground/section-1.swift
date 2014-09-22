@@ -4,31 +4,31 @@ import UIKit
 
 var string1 = ""
 string1 = "Hello"
-var string2 = "World"
+let string2 = "World"
 var helloWorldString = string1 + " " + string2
 helloWorldString = helloWorldString.uppercaseString
 helloWorldString = helloWorldString.lowercaseString
 helloWorldString = helloWorldString.capitalizedString
 
-var firstCharacter:Character = "!"
+let firstCharacter:Character = "!"
 
 helloWorldString = helloWorldString + String(firstCharacter)
 
-var x = 5
-var newString = "\(x)"
+let x = 5
+let newString = "\(x)"
 
-var floatValue = 3.5
-var newFloatString = "\(floatValue)"
+let floatValue = 3.5
+let newFloatString = "\(floatValue)"
 
-var numberString = "9"
-var numberStringToInt = numberString.toInt()
+let numberString = "9"
+let numberStringToInt = numberString.toInt()
 var optionalToInt = numberStringToInt!
 optionalToInt += 3
 optionalToInt -= 3
 optionalToInt *= 3
 optionalToInt /= 3
 
-var doubleString = "3.9585"
+let doubleString = "3.9585"
 var doubleValue = Double((doubleString as NSString).doubleValue)
 doubleValue += 3.85
 doubleValue -= 3.85
