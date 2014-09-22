@@ -13,3 +13,14 @@ helloWorldString = helloWorldString.capitalizedString
 var firstCharacter:Character = "!"
 
 helloWorldString = helloWorldString + String(firstCharacter)
+
+var x = 5
+var newString = "\(x)"
+
+var floatValue = 3.5
+var newFloatString = "\(floatValue)"
+
+var numberString = "9"
+var numberStringToInt = numberString.toInt()
+var optionalToInt = numberStringToInt!
+optionalToInt = optionalToInt + 3
