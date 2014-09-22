@@ -2,10 +2,10 @@
 
 import UIKit
 
-var firstInteger = 0, secondInteger = 29
+var firstInteger:Int = 0, secondInteger:Int = 29
 
-var thirdInteger = -1000858
+var thirdInteger:Float = -1000858
 
-var x = 5
+var x:Int = 5
 
-var discountAtDepartmentStore = 0.3
+var discountAtDepartmentStore:Float = 0.3
