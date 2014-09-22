@@ -2,7 +2,10 @@
 
 import UIKit
 
-var x = 10
+typealias WholeNumber = Int
+typealias NumberWithDecimal = Double
+
+var x:WholeNumber = 10
 var y = 20
 
 var additionAnswer = x + y
@@ -11,7 +14,7 @@ var subtractionAnswer = x - y
 var divisionAnswer = x / y
 
 var discountOnShoesAtStore = 0.3
-var priceOfShoes:Double = 33
+var priceOfShoes:NumberWithDecimal = 33
 
 var priceAfterDiscount = priceOfShoes * (1 - discountOnShoesAtStore)
 
