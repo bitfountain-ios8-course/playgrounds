@@ -13,3 +13,12 @@ if mySpeed < 70{
 } else {
     println("Slow down police ahead")
 }
+
+let isTelevisionOn = true
+
+if isTelevisionOn {
+    println("Make sure to turn it off when you are done")
+}
+else {
+    println("Do you want to use this now?")
+}
