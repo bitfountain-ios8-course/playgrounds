@@ -19,3 +19,10 @@ else {
 println(tigerNames.count)
 var theCountOfMyTigerNamesArray = tigerNames.count
 var theCountOfMyEmptyArray = emptyArray.count
+
+let firstNameFromArray = tigerNames[0]
+
+for var i = 0; i < tigerNames.count; i++ {
+    let instanceFromArray = tigerNames[i]
+    println("\(instanceFromArray)")
+}
