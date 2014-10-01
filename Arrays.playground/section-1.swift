@@ -35,3 +35,7 @@ for tigerName in tigerNames {
     let tigerNameFromArray = tigerName
     println("Tiger Name: \(tigerName)")
 }
+
+for (index, tigerName) in enumerate(tigerNames) {
+    println("index: \(index) tigerName: \(tigerName)")
+}
