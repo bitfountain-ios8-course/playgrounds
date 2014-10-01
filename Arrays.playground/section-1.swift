@@ -26,3 +26,12 @@ for var i = 0; i < tigerNames.count; i++ {
     let instanceFromArray = tigerNames[i]
     println("\(instanceFromArray)")
 }
+
+for tigerAge in 1...3 {
+    println("\(tigerAge)")
+}
+
+for tigerName in tigerNames {
+    let tigerNameFromArray = tigerName
+    println("Tiger Name: \(tigerName)")
+}
