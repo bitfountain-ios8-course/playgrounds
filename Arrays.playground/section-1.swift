@@ -61,3 +61,5 @@ println(tigerNames)
 
 tigerNames.removeAll(keepCapacity: false)
 println(tigerNames)
+
+let randomNumber = Int(arc4random_uniform(UInt32(5)))
