@@ -39,3 +39,25 @@ for tigerName in tigerNames {
 for (index, tigerName) in enumerate(tigerNames) {
     println("index: \(index) tigerName: \(tigerName)")
 }
+
+tigerNames.append("New Tiger")
+println(tigerNames)
+
+tigerNames += ["John", "Eliot"]
+
+tigerNames[1] = "Spar"
+
+tigerNames[0...2] = ["Katie", "James", "George"]
+println(tigerNames)
+
+tigerNames.insert("Julie", atIndex: 1)
+println(tigerNames)
+
+tigerNames.removeLast()
+println(tigerNames)
+
+tigerNames.removeAtIndex(1)
+println(tigerNames)
+
+tigerNames.removeAll(keepCapacity: false)
+println(tigerNames)
